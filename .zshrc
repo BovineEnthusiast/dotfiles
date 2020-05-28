@@ -35,7 +35,7 @@ COMPLETION_WAITING_DOTS="true"
 
 # zsh-autocomplete
 # ^^ requires git@github.com:marlonrichert/zsh-autocomplete.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autocomplete
-plugins=(git sudo z bgnotify zsh-syntax-highlighting zsh-autocomplete)
+plugins=(git sudo z bgnotify zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
